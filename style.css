@@ -1,0 +1,81 @@
+body{
+background: rgb(46, 46, 46) !important;
+display: flex;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar{
+      background: black;
+      display: flex;
+      flex-direction: column;
+      color: white;
+      width: 70vh;
+      height: 100vh;
+      position: sticky;
+}
+
+.nav_bar ul{
+    list-style: none;
+}
+
+
+.logo{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.icons{
+    margin-top: 35px;
+    font-size: 21px;
+}
+
+.container_me{
+    width: 100%;
+}
+
+.login_section{
+    width:100%;
+    background-color:black;
+    height: 61px ;
+    display: flex;
+    justify-content: end;
+    padding: 6px 0px;
+   padding-right: 50px;
+}
+
+#log_in{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bold;
+}
+#sign_in{
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: rgb(168, 168, 168);
+    font-weight: bold;  
+}
+
+#sign_in:hover{
+    color: white;
+}
+
+.focus{
+    padding-left:28px ;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.cards_me{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
